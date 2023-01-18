@@ -1,55 +1,27 @@
 body{
-    background: radial-gradient(white, black);
+    background: linear-gradient(white, black);
     height: 100vh;
 }
 
-p.header{
-    text-align: center;
+header{
     font-size: 50px;
-    background-color: #ffffff;
-    opacity: 0.7;
+    text-align: center;
 }
 
-img.izquierda{
-    float: left;
-    height: 150px;
-    margin-left: 10%;
+nav{
+    text-align: center;
+    font-size: 17px;
 }
 
-img.derecha{
-    float: right;
-    height: 150px;
-    margin-right: 10%;
-}
-
-p{
+a{
     color: black;
-    font-size: 20px;
+    margin: 0 15px;
+}
+
+section{
     text-align: center;
 }
 
-img{
-    height: 180px;
-    margin: 0 50px;
-}
-
-p.entrenadores{
+td{
     text-align: center;
 }
-
-p.gatuso{
-    text-align: left;
-    margin-left: 38.75%;
-}
-
-p.segundo{
-    text-align: left;
-    position: relative;
-    margin-left: 60%;
-    top: -42px;
-}
-
-img:hover{
-    transform: scale(110%);
-}
-
