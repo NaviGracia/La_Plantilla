@@ -3,11 +3,23 @@ body{
     height: 100vh;
 }
 
-header{
+p.header{
     text-align: center;
     font-size: 50px;
     background-color: #ffffff;
     opacity: 0.7;
+}
+
+img.izquierda{
+    float: left;
+    height: 150px;
+    margin-left: 10%;
+}
+
+img.derecha{
+    float: right;
+    height: 150px;
+    margin-right: 10%;
 }
 
 p{
@@ -18,10 +30,23 @@ p{
 
 img{
     height: 180px;
+    margin: 0 50px;
 }
 
 p.entrenadores{
     text-align: center;
+}
+
+p.gatuso{
+    text-align: left;
+    margin-left: 38.75%;
+}
+
+p.segundo{
+    text-align: left;
+    position: relative;
+    margin-left: 60%;
+    top: -42px;
 }
 
 img:hover{
