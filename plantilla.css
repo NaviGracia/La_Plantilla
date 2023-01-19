@@ -1,6 +1,6 @@
 body{
     background: radial-gradient(white, black);
-    height: 100vh;
+    background-size: cover;
 }
 
 p.header{
@@ -25,6 +25,9 @@ img.derecha{
 p{
     color: black;
     font-size: 20px;
+}
+
+p.jugadores{
     text-align: center;
 }
 
@@ -34,19 +37,7 @@ img{
 }
 
 p.entrenadores{
-    text-align: center;
-}
-
-p.gatuso{
-    text-align: left;
-    margin-left: 38.75%;
-}
-
-p.segundo{
-    text-align: left;
-    position: relative;
-    margin-left: 60%;
-    top: -42px;
+text-align: center;
 }
 
 img:hover{

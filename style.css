@@ -13,6 +13,18 @@ nav{
     font-size: 17px;
 }
 
+p.competicion{
+    text-align: center;
+}
+
+table.proximo{
+    margin-left: 43%;
+}
+
+table.ultimos{
+    margin-left: 39.5%;
+}
+
 a{
     color: black;
     margin: 0 15px;
@@ -22,6 +34,3 @@ section{
     text-align: center;
 }
 
-td{
-    text-align: center;
-}
