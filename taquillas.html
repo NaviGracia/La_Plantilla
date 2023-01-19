@@ -5,8 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taquillas Valencia CF</title>
+    <link rel="stylesheet" href="taquilla.css">
 </head>
 <body>
-    
+    <header>Comprar Entradas</header>
+    <hr>
+    <section>
+    <p><strong>Introduce tus Datos</strong></p>
+    <form method="get" action="index.html">
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre">
+    <br>
+        <label for="apellidos">Apellidos::</label>
+        <input type="text" name="apellidos">
+    <br>
+        <label for="Email">Email:</label>
+        <input type="text" name="email">
+    <br>
+        <label for="País de Residencia">País de Residencia:</label>
+        <select name="País de Residencia">
+            <option>Ninguna</option>
+            <option>España</option>
+            <option>Francia</option>
+            <option>Alemania</option>
+            <option>Portugal</option>
+        </select>
+    <br>
+        <label for="c_postal">Código Postal:</label>
+        <input type="text" name="c_postal">
+        </fieldset>
+        <br>
+        <label for="zona">Zona:</label>
+        <select name="zona">
+            <option>Ninguna</option>
+            <option>Tribuna Central</option>
+            <option>Tribuna Pref.</option>
+            <option>Tribuna Lateral</option>
+            <option>Anfiteatro Central</option>
+            <option>Tribuna Baja</option>
+            <option>Anfiteatro Lateral</option>
+            <option>Sector 6 Cubierto</option>
+            <option>Sector 5 Cubierto</option>
+            <option>Sector 16 Central</option>
+            <option>Sector 7 Cubierto</option>
+            <option>Sector 17 Central</option>
+            <option>Aquellas que no aparezcan estarán completas</option>
+        </select>
+
+        <br>
+        <label for="asiento">Nº Asiento:</label>
+        <select name="Asiento">
+            <option>Ninguna</option>
+            <option>7998</option>
+            <option>6534</option>
+            <option>5443</option>
+            <option>121</option>
+            <option>45354</option>
+            <option>33333</option>
+            <option>1111</option>
+            <option>9999</option>
+            <option>290</option>
+            <option>15067</option>
+            <option>78</option>
+            <option>Aquellas que no aparezcan estarán completas</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Borrar Todo</button>
+    </form>
+    </section>
 </body>
 </html>

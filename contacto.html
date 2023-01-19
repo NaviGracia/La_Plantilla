@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos Valencia CF</title>
+    <link rel="stylesheet" href="taquilla.css">
+</head>
+<body>
+    <header>Contáctanos</header>
+    <hr>
+    <section>
+    <p><strong>Introduce tus Datos</strong></p>
+    <form method="get" action="destination.html">
+        <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre">
+    <br>
+        <label for="apellidos">Apellidos::</label>
+        <input type="text" name="apellidos">
+    <br>
+        <label for="Email">Email:</label>
+        <input type="text" name="email">
+    <br>
+        <label for="País de Residencia">País de Residencia:</label>
+        <select name="País de Residencia">
+            <option>Ninguna</option>
+            <option>España</option>
+            <option>Francia</option>
+            <option>Alemania</option>
+            <option>Portugal</option>
+        </select>
+    <br>
+        <label for="c_postal">Código Postal:</label>
+        <input type="text" name="c_postal">
+        </fieldset>
+        <br>
+        <label for="razon">Razón de Contacto</label>
+        <p class="centrar">
+            <textarea rows="8" cols="50" name="razon">Introduce tu razón por la que deseas contactarnos
+            </textarea>
+        </p>
+
+        <button type="submit">Enviar</button>
+
+        <button type="reset">Borrar Todo</button>
+    </form>
+    </section>
+</body>
+</html>

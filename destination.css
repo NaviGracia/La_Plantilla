@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    background: radial-gradient(white, black);
+}
+
+header{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+}
+
+button{
+    position: relative;
+    margin-left: 46.4%;
+    top: 40%;
+}
+
+p{
+    position: relative;
+    text-align: center;
+    top: 40%;
+}
+
+img.imagen{
+    height: 200px;
+}
